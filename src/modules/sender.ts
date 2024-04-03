@@ -81,7 +81,7 @@ export class Sender extends Message {
                     url
                 })
                     .send({
-                        content: content || null,
+                        content: content || undefined,
                         avatarURL,
                         embeds: this.embeds,
                         files: this.files,
