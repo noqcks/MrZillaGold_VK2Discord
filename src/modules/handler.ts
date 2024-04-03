@@ -1,5 +1,5 @@
 import { HexColorString } from 'discord.js';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 import { IWallPostContextPayload } from 'vk-io';
 import { GroupsGetByIdObjectLegacyResponse, UsersGetResponse } from 'vk-io/lib/api/schemas/responses';
 import { GroupsGroupFull, WallWallpostFull } from 'vk-io/lib/api/schemas/objects';
