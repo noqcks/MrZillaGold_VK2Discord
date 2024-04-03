@@ -1,4 +1,5 @@
-import { HexColorString, MessageEmbed } from 'discord.js';
+import { HexColorString } from 'discord.js';
+import { MessageEmbed } from 'discord.js';
 import { MessageAttachment } from 'discord.js/structures';
 import { IWallPostContextPayload } from 'vk-io';
 import { WallWallpostFull } from 'vk-io/lib/api/schemas/objects';
