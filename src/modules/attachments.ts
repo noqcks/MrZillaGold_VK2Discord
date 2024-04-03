@@ -1,4 +1,4 @@
-import { MessageAttachment } from 'discord.js';
+import { Attachment } from 'discord.js';
 import { EmbedBuilder } from '@discordjs/builders';
 import { hyperlink } from '@discordjs/builders';
 import { AttachmentType, ISharedAttachmentPayload } from 'vk-io';
